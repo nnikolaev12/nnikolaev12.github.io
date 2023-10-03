@@ -1,0 +1,46 @@
+/** Define vars */
+:root {
+  --main-color-light: #34a5b3;
+  --main-color-dark: #161d38;
+  --secondary-color: #114e7b;
+  --secondary-color-contrast: #ff5447;
+  --font-headings: "Lora", sans-serif;
+  --font-texts: "Roboto", sans-serif;
+}
+/** Global styles */
+body {
+  font-family: var(--font-texts);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-headings);
+}
+.wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.subheading {
+  display: block;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: var(--main-color-light);
+}
+/** Debug */
+/* * {
+    border: 2px solid limegreen;
+  } */

@@ -1,0 +1,40 @@
+.portfolio__wrapper .portfolio__box {
+  display: grid;
+  grid-template-columns: 1fr;
+  color: white;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+.portfolio__item {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 300px;
+}
+.portfolio__item div {
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(0, 0, 0, 0.8);
+  width: 100%;
+  padding: 1rem 1rem;
+}
+.portfolio__item div h3 {
+  font-size: 1.5rem;
+}
+.portfolio__button {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .portfolio__wrapper .portfolio__box {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .portfolio__item:nth-child(4n + 2),
+  .portfolio__item:nth-child(4n + 3) {
+    grid-column: span 3;
+  }
+  .portfolio__item:nth-child(4n + 1),
+  .portfolio__item:nth-child(4n + 4) {
+    grid-column: span 2;
+  }
+}

@@ -1,0 +1,12 @@
+.portfolio {
+  background-color: var(--main-color-dark);
+  padding: 6rem 0;
+}
+.portfolio .heading,
+.portfolio .subheading {
+  text-align: center;
+}
+.portfolio .heading {
+  color: #fff;
+  margin-bottom: 2rem;
+}

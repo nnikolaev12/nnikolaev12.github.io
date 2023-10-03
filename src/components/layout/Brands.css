@@ -1,0 +1,28 @@
+.brands .brands__list {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 3rem 3rem 0 3rem;
+  border-radius: 3rem;
+  background-color: #fff;
+  position: relative;
+  top: -3rem;
+}
+.brands .divider {
+  content: "";
+  margin: 0 auto;
+  width: 90%;
+  border-bottom: 3px solid grey;
+  margin-bottom: 6rem;
+}
+/** responsive */
+@media screen and (max-width: 768px) {
+  .brands .brands__list {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .brands .brands__list img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
