@@ -1,0 +1,31 @@
+@use "../../styles/responsive";
+
+.item {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 300px;
+
+  div {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 100%;
+    padding: 1rem 1rem;
+
+    h3 {
+      font-size: 1.5rem;
+    }
+  }
+
+  &:nth-child(4n + 2),
+  &:nth-child(4n + 3) {
+    grid-column: span 3;
+  }
+
+  &:nth-child(4n + 1),
+  &:nth-child(4n + 4) {
+    grid-column: span 2;
+  }
+}

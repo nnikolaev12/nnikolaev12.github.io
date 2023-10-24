@@ -1,0 +1,45 @@
+.MobileMenu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.wrapper {
+  padding: 3rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.link {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 1rem;
+    margin-right: 0.5rem;
+    border-bottom: 2px solid var(--main-color-light);
+  }
+}
+
+.button {
+  font-size: 1.5rem;
+  position: relative;
+  top: -3rem;
+}
