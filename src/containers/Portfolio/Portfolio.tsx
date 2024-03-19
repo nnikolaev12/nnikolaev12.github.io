@@ -13,7 +13,7 @@ const Portfolio = () => {
           <ul className={styles.list}>
             {portfolio.items.map((item) => (
               <PortfolioItem
-                id={item.id}
+                key={item.id}
                 title={item.title}
                 url={item.url}
                 description={item.description}
