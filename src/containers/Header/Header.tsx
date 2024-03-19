@@ -14,19 +14,22 @@ const Header = () => {
   return (
     <div className={`${styles.header} wrapper`}>
       <div className={styles.menu}>
-        <div className={styles.logo}>
-          <img
-            src="/assets/img/nn-logo.png"
-            width="80"
-            height="80"
-            alt="N2 logo"
-          />
-          <span>
-            Nick
-            <br />
-            Nikolaev
-          </span>
-        </div>
+        <a href="/">
+          <div className={styles.logo}>
+            <img
+              src="/assets/img/nn-logo.png"
+              width="80"
+              height="80"
+              alt="N2 logo"
+            />
+
+            <span>
+              Nick
+              <br />
+              Nikolaev
+            </span>
+          </div>
+        </a>
         <nav className={styles.nav}>
           <ul>
             <li>
@@ -47,7 +50,7 @@ const Header = () => {
           </ul>
         </nav>
         <div className={styles.cta}>
-          <Button href="#Contact" buttonClass="outline" text="Contact Me" />
+          <Button href="/#Contact" buttonClass="outline" text="Contact Me" />
         </div>
         <div className={styles.openMobileMenu}>
           <button onClick={toggleMobileMenu}>&#9776;</button>
