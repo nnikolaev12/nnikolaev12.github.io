@@ -1,0 +1,29 @@
+.item {
+  background-color: #fff;
+  border: 3px solid #000;
+  border-radius: 0.5rem;
+}
+
+.thumbnail {
+  height: 15.625rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.text {
+  padding: 2rem;
+
+  h3 {
+    font-size: 1.5rem;
+    line-height: 140%;
+    margin-bottom: 1rem;
+  }
+
+  time {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+  }
+}

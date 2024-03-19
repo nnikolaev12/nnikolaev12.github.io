@@ -2,6 +2,17 @@
   padding: 6rem 0;
 }
 
+.headings {
+  margin-bottom: 2rem;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
 .headings,
 .button {
   text-align: center;

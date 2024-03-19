@@ -16,16 +16,16 @@ const Footer = () => {
         <div className={styles.menu}>
           <ul className={styles.nav}>
             <li>
-              <a href="#About">About Me</a>
+              <a href="/#About">About Me</a>
             </li>
             <li>
-              <a href="#Portfolio">Portfolio</a>
+              <a href="/#Portfolio">Portfolio</a>
             </li>
             <li>
-              <a href="#Blog">Blog</a>
+              <a href="/#Blog">Blog</a>
             </li>
             <li>
-              <a href="#Contact">Contact</a>
+              <a href="/#Contact">Contact</a>
             </li>
           </ul>
           <ul className={styles.social}>
