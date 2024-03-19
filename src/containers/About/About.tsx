@@ -12,14 +12,24 @@ const About = () => {
         </div>
         <div className={styles.intro}>
           <span className="subheading">About</span>
-          <h2 className="heading">Web developer, SEO Expert & Entrepreneur</h2>
+          <h2 className="heading">Web developer and Digital Marketer</h2>
           <p>
-            I loved computers since I was a kid and I've build my first website
-            in high school. My passion for the web continued to unravel, and
-            nowadays I am fully employed in the IT sector. I am helping
-            businesses with their web goals, growing my own projects, and do
-            what I really love - working with interesting and challenging
-            technologies.
+            Ever since I was knee-high to a grasshopper, I've been enamored with
+            those magical boxes we call computers. I mean, who doesn't love a
+            good blinking cursor or the satisfying hum of a cooling fan, am I
+            right? It all started back in the days of high school, when I
+            cobbled together my first website. Ah, the memories of those late
+            nights spent wrestling with HTML and CSS, trying to make that table
+            look at least partually decent (yep, websites were build with tables
+            back then).
+          </p>
+          <p>
+            Fast forward to today, and here I am, fully entrenched in the wild
+            and wonderful world of IT. I guess you could say I'm living the
+            dream – getting paid to do what I love, surrounded by interesting
+            challenges and cutting-edge technologies. So if you're in need of a
+            seasoned web developer with a penchant for problem-solving, look no
+            further.
           </p>
           <div className={styles.social}>
             <a href="https://www.linkedin.com/in/nikolay-nikolaev-78992268/">
@@ -58,10 +68,12 @@ const About = () => {
       <div className={styles.services}>
         <div>
           <span className="subheading">services</span>
-          <h2 className="heading">How can I help with your business</h2>
+          <h2 className="heading">How can I help your business</h2>
           <p>
-            I am trying to help your business the best I can and in order to do
-            that I try to understand your needs and goals precisely.
+            I am collaborating with businesses of all shapes and sizes achieve
+            their digital dreams. From mom-and-pop shops to multinational
+            corporations, I've had the pleasure of lending my expertise to a
+            wide array of web-centric endeavors.
           </p>
           <img src="/assets/img/services.png" alt="What I offer" />
         </div>
@@ -69,19 +81,23 @@ const About = () => {
           <ol>
             <li>
               <span>
-                <strong>Full-Stack Development</strong> - WordPress, Laravel,
-                React
+                <strong>Full-Stack Web Development</strong>
+                <br />
+                WordPress, Laravel, React
               </span>
             </li>
             <li>
               <span>
-                <strong>Digital Marketing</strong> - SEO, Analytics, UX
+                <strong>Digital Marketing</strong>
+                <br />
+                SEO, Analytics, Social Media, Ads
               </span>
             </li>
             <li>
               <span>
-                <strong>Education</strong> - Consulatation, Training, and
-                Mentoring
+                <strong>Education</strong>
+                <br />
+                Consulatation, Training, and Mentoring
               </span>
             </li>
           </ol>

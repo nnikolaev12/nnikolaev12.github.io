@@ -9,8 +9,10 @@ const Contact = () => {
         <div className={styles.textbox}>
           <h3 className="heading">Contact Me</h3>
           <p>
-            I'd love to work with you. Get in touch with me, let's schedule a
-            meeting, and talk about your project.
+            Let's carve out some time to chat, swap ideas, and talk about
+            potential collaboration. After all, building something truly
+            remarkable requires more than just technical prowess - it requires
+            teamwork and a shared vision.
           </p>
           <div className={styles.extra}>
             <span>

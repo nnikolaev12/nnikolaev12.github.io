@@ -13,11 +13,11 @@ const Hero = () => {
             <span>&#47;&#47; Web Development</span>
             <span>&#47;&#47; Digital Marketing</span>
           </div>
-          <h1>Hi, I build scalable and optimized websites</h1>
+          <h1>Hi, let's elevate your online presence</h1>
           <p>
-            I can assist you in building a modern website with optimization,
-            scalability, and adequate maitenance in mind. Let's talk and see how
-            can I help your business.
+            In today's fast-paced digital landscape, having a website that not
+            only looks good but also performs like a well-oiled machine is
+            non-negotiable. Let's chat and talk about your business needs.
           </p>
           <div className={styles.buttons}>
             <Button href="#About" buttonClass="primary" text="Learn More" />
