@@ -1,9 +1,16 @@
+import { useState } from "react";
 import { Button } from "../../components/Button/Button";
 import { BlogItem } from "../../components/BlogItem/BlogItem";
 import blog from "./blog-posts.json";
 import styles from "./Blog.module.scss";
 
 const Blog = () => {
+  const [itemsToShow, setItemsToShow] = useState(3);
+
+  const loadMoreItems = () => {
+    setItemsToShow(itemsToShow + 3);
+  };
+
   return (
     <section
       id="Blog"
@@ -16,7 +23,7 @@ const Blog = () => {
           <h2 className="heading">Latest Write-ups</h2>
         </div>
         <ul className={styles.list}>
-          {blog.posts.map((item) => (
+          {blog.posts.slice(0, itemsToShow).map((item) => (
             <BlogItem
               key={item.id}
               title={item.title}
@@ -29,7 +36,11 @@ const Blog = () => {
         </ul>
         {blog.posts.length > 3 && (
           <div className={styles.button}>
-            <Button href="#" buttonClass="outline-dark" text="Explore More" />
+            <Button
+              onClick={loadMoreItems}
+              buttonClass="outline-dark"
+              text="Explore More"
+            />
           </div>
         )}
       </div>
