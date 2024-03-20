@@ -30,6 +30,13 @@
     },
     {
       "id": 5,
+      "title": "KMD Project",
+      "url": "https://kmd-project.com/",
+      "description": "Personal website of engineer Maria Tabanlieva",
+      "thumbnail": "portfolio-project-kmd-project.webp"
+    },
+    {
+      "id": 6,
       "title": "Mystral",
       "url": "https://mystral.ai/",
       "description": "Customized generative AI solutions for companies",

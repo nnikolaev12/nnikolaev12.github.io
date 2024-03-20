@@ -11,7 +11,7 @@ export const PortfolioItem = (props: IPortfolioItemProps) => {
         backgroundImage: "url('/assets/img/portfolio/" + thumbnail + "')",
       }}
     >
-      <a href={url}>
+      <a target="_blank" rel="nofollow noopener noreferrer" href={url}>
         <div>
           <h3>{title}</h3>
           <p>{description}</p>
