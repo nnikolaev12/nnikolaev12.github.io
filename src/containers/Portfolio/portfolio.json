@@ -5,28 +5,35 @@
       "title": "Sensity AI",
       "url": "https://sensity.ai/",
       "description": "Identity verification and fraud detection company",
-      "thumbnail": "portfolio-project-sensity.jpg"
+      "thumbnail": "portfolio-project-sensity.webp"
     },
     {
       "id": 2,
       "title": "Ultimate Poker Coaching",
       "url": "https://ultimatepokercoaching.com/",
       "description": "Online services connecting professional poker players with students worldwide",
-      "thumbnail": "portfolio-project-upc.jpg"
+      "thumbnail": "portfolio-project-upc.webp"
     },
     {
       "id": 3,
       "title": "Blubito",
       "url": "https://blubito.de/",
       "description": "Nearshore outsourcing IT company based in Germany and Bulgaria",
-      "thumbnail": "portfolio-project-blubito.jpg"
+      "thumbnail": "portfolio-project-blubito.webp"
     },
     {
       "id": 4,
       "title": "Colin's Sash Windows",
       "url": "https://colinssashwindows.co.uk/",
       "description": "Sash windows and doors retailer based in the UK",
-      "thumbnail": "portfolio-project-csw.jpg"
+      "thumbnail": "portfolio-project-csw.webp"
+    },
+    {
+      "id": 5,
+      "title": "Mystral",
+      "url": "https://mystral.ai/",
+      "description": "Customized generative AI solutions for companies",
+      "thumbnail": "portfolio-project-mystral.webp"
     }
   ]
 }
