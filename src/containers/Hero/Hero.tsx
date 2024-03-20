@@ -1,3 +1,4 @@
+import { jumpToSection } from "../../Helper";
 import { Button } from "../../components/Button/Button";
 import styles from "./Hero.module.scss";
 
@@ -20,9 +21,13 @@ const Hero = () => {
             non-negotiable. Let's chat and talk about your business needs.
           </p>
           <div className={styles.buttons}>
-            <Button href="#About" buttonClass="primary" text="Learn More" />
             <Button
-              href="#Contact"
+              onClick={() => jumpToSection("About")}
+              buttonClass="primary"
+              text="Learn More"
+            />
+            <Button
+              onClick={() => jumpToSection("Contact")}
               buttonClass="outline-dark"
               text="Contact Me"
             />

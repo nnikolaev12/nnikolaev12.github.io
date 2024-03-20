@@ -55,6 +55,20 @@
     display: block;
     text-align: left;
   }
+
+  a {
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 2px solid #000;
+
+    &:hover {
+      background-color: #f6f8ff;
+    }
+  }
 }
 
 .openMobileMenu {

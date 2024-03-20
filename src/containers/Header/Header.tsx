@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button } from "../../components/Button/Button";
+import { NavLink } from "../../components/NavLink/NavLink";
 import { MobileMenu } from "../../components/MobileMenu/MobileMenu";
 
 import styles from "./Header.module.scss";
@@ -22,7 +22,6 @@ const Header = () => {
               height="80"
               alt="N2 logo"
             />
-
             <span>
               Nick
               <br />
@@ -33,24 +32,18 @@ const Header = () => {
         <nav className={styles.nav}>
           <ul>
             <li>
-              <a className={styles.link} href="/#About">
-                About Me
-              </a>
+              <NavLink title="About" to="/" hash="About" />
             </li>
             <li>
-              <a className={styles.link} href="/#Portfolio">
-                Portfolio
-              </a>
+              <NavLink title="Portfolio" to="/" hash="Portfolio" />
             </li>
             <li>
-              <a className={styles.link} href="/#Blog">
-                Blog
-              </a>
+              <NavLink title="Blog" to="/" hash="Blog" />
             </li>
           </ul>
         </nav>
         <div className={styles.cta}>
-          <Button href="/#Contact" buttonClass="outline" text="Contact Me" />
+          <NavLink title="Contact" to="/" hash="Contact" />
         </div>
         <div className={styles.openMobileMenu}>
           <button onClick={toggleMobileMenu}>&#9776;</button>

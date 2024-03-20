@@ -1,3 +1,4 @@
+import { NavLink } from "../../components/NavLink/NavLink";
 import styles from "./Footer.module.scss";
 
 const Footer = () => {
@@ -16,21 +17,25 @@ const Footer = () => {
         <div className={styles.menu}>
           <ul className={styles.nav}>
             <li>
-              <a href="/#About">About Me</a>
+              <NavLink title="About" to="/" hash="About" />
             </li>
             <li>
-              <a href="/#Portfolio">Portfolio</a>
+              <NavLink title="Portfolio" to="/" hash="Portfolio" />
             </li>
             <li>
-              <a href="/#Blog">Blog</a>
+              <NavLink title="Blog" to="/" hash="Blog" />
             </li>
             <li>
-              <a href="/#Contact">Contact</a>
+              <NavLink title="Contact" to="/" hash="Contact" />
             </li>
           </ul>
           <ul className={styles.social}>
             <li>
-              <a href="https://www.linkedin.com/in/nikolay-nikolaev-78992268/">
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://www.linkedin.com/in/nikolay-nikolaev-78992268/"
+              >
                 <img
                   width="30"
                   height="30"
@@ -40,7 +45,11 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="https://github.com/nnikolaev12">
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://github.com/nnikolaev12"
+              >
                 <img
                   width="30"
                   height="30"

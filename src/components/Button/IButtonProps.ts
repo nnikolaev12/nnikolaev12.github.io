@@ -1,5 +1,5 @@
 export interface IButtonProps {
-  href: string;
+  onClick: () => void;
   text: string;
   buttonClass: string;
 }

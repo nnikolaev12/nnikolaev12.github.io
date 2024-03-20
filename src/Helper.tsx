@@ -8,3 +8,10 @@ export const formatDate = (date: string | any) => {
 
   return formattedDate;
 };
+
+export const jumpToSection = (section_id: string) => {
+  const element = document.getElementById(section_id);
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+};

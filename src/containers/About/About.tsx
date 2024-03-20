@@ -7,7 +7,7 @@ const About = () => {
         <div className={styles.image}>
           <img
             src="/assets/img/about-nick.png"
-            alt="Nick Nikolaev - WordPress Developer"
+            alt="Nick Nikolaev - Web Developer and Digital Marketer"
           />
         </div>
         <div className={styles.intro}>
